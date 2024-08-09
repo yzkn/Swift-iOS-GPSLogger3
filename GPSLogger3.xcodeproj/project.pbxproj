@@ -11,6 +11,7 @@
 		9A8D62AD2C5C89F30030086C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D62AC2C5C89F30030086C /* ContentView.swift */; };
 		9A8D62AF2C5C89F60030086C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D62AE2C5C89F60030086C /* Assets.xcassets */; };
 		9A8D62B22C5C89F60030086C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8D62B12C5C89F60030086C /* Preview Assets.xcassets */; };
+		9AC278062C6472B4000AE47C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC278052C6472B4000AE47C /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		9A8D62AC2C5C89F30030086C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A8D62AE2C5C89F60030086C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A8D62B12C5C89F60030086C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AC278052C6472B4000AE47C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AC278072C6477A8000AE47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,12 @@
 		9A8D62A92C5C89F30030086C /* GPSLogger3 */ = {
 			isa = PBXGroup;
 			children = (
+				9AC278072C6477A8000AE47C /* Info.plist */,
 				9A8D62AA2C5C89F30030086C /* GPSLogger3App.swift */,
 				9A8D62AC2C5C89F30030086C /* ContentView.swift */,
 				9A8D62AE2C5C89F60030086C /* Assets.xcassets */,
 				9A8D62B02C5C89F60030086C /* Preview Content */,
+				9AC278052C6472B4000AE47C /* AppDelegate.swift */,
 			);
 			path = GPSLogger3;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC278062C6472B4000AE47C /* AppDelegate.swift in Sources */,
 				9A8D62AD2C5C89F30030086C /* ContentView.swift in Sources */,
 				9A8D62AB2C5C89F30030086C /* GPSLogger3App.swift in Sources */,
 			);
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = 5RUUTWFN27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPSLogger3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = 5RUUTWFN27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPSLogger3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

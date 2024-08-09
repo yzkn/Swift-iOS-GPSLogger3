@@ -6,14 +6,17 @@
 //
 
 import SwiftUI
+import CoreLocationUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            LocationButton {
+                debugPrint("LocationButton")
+            }
+            .foregroundColor(.white)
+            .labelStyle(.iconOnly)
+            .cornerRadius(30)
         }
         .padding()
     }
